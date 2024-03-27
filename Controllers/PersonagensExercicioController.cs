@@ -28,9 +28,12 @@ namespace RPGApi.Controllers
         public IActionResult GetByNome(string nome)
         {
             List<Personagem> listaBusca = personagens.FindAll(p => p.Nome == nome);
-            if(listaBusca.Count == 0)
-            return BadRequest("Not Found.");
+            if(listaBusca.Count == 0){
+            return NotFound("Personagem não encontrado!");
+            }
+            else{
             return Ok(listaBusca);
+            }
         }
         
         // Exercício B
