@@ -136,3 +136,8 @@ D:\TEJ\DS\RPGApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching
 D:\TEJ\DS\RPGApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\TEJ\DS\RPGApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\TEJ\DS\RPGApi\obj\Debug\net8.0\RPGApi.sourcelink.json
+D:\TEJ\DS\RPGApi\bin\Debug\net8.0\publish\web.config
+D:\TEJ\DS\RPGApi\bin\Debug\net8.0\publish\appsettings.Development.json
+D:\TEJ\DS\RPGApi\bin\Debug\net8.0\publish\appsettings.json
+D:\TEJ\DS\RPGApi\bin\Debug\net8.0\publish\RPGApi.deps.json
+D:\TEJ\DS\RPGApi\bin\Debug\net8.0\publish\RPGApi.runtimeconfig.json
