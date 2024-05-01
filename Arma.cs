@@ -15,7 +15,7 @@ namespace RPGApi
 
         public int Dano { get; set; }
 
-        public Personagem Personagem { get; set; } = null!; //null!= ignora os warnings
+        public Personagem? Personagem { get; set; } = null!; //null!= ignora os warnings
 
         public int PersonagemId { get; set; }
     }

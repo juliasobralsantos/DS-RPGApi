@@ -26,6 +26,9 @@ namespace RPGApi.Controllers
                 try
                 {
                     Personagem p = await _context.TB_PERSONAGENS
+                        .Include(ar => ar.Arma)
+                        .Include(ar => ar.PersonagemHabilidades)
+                        .ThenInclude(h => h.Habilidade)
                         .FirstOrDefaultAsync(pBusca => pBusca.Id == id);
                     return Ok(p);
                 }
